@@ -1,0 +1,28 @@
+//
+// Do any local configuration here
+//
+
+// Consider adding the 1918 zones here, if they are not used in your
+// organization
+//include "/etc/bind/zones.rfc1918";
+
+zone "aba-int" in {
+	type master;
+	file "/etc/bind/db.aba-int";
+};
+
+zone "aba-dmz" in {
+	type master;
+	file "/etc/bind/db.aba-dmz";
+};
+
+zone "3.23.10.in-addr.arpa" in {
+	type master;
+	file "/etc/bind/db.10.23.3";
+};
+
+zone "3.24.10.in-addr.arpa" in {
+	type master;
+	file "/etc/bind/db.10.24.3";
+};
+
