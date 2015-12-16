@@ -44,8 +44,8 @@ nano /etc/apache2/passwords/.htgroup
 ```
 **3) Die Html Startseite und privater Bereich entsprechend (Namen ersetzen) anpassen:**
 ```
-nano /home/sites/vorname-nachname/index.html
-nano /home/sites/vorname-nachname/privat/index.html
+nano /home/sites/aba.int/index.html
+nano /home/sites/aba.int/privat/index.html
 ```
 **4) In folgenden Dateien XXX mit letztem Teil der IP vom Raspi ersetzen:**
 ```
