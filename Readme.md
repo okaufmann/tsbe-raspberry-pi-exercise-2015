@@ -2,9 +2,14 @@
 
 *Image bei mir verlangen*
 
+##Wichtige Infos
+- Ich übernehme **keine Haftung** wenns dann nicht läuft, das hier soll eine gut gemeinte Hilfestellung sein, keine Verpflichtung!
+- Die Datei Struktur (etc, home) ist identisch mit der auf dem raspi (wie sie sein sollte), so können die "Vorlagen-Dateien" jederzeit wiedergefunden werden und allenfalls neu kopiert werden.
+- Bei Fragen, fragen ;)
+
 ###Zugang
 
-IP gemäss `https://pi.strebl.ch` (Zuerst Name in Punkt 1 wechseln)
+IP gemäss `https://pi.strebl.ch` (Zuerst aber umbenennen)
 Username: pi
 Passwort: raspberry (auch für root)
 
@@ -60,12 +65,12 @@ service bind9 restart
 
 ###Fehleranalyse
 
-Probleme mit Bind oder sontstiges:
+**Probleme mit Bind oder sontstiges:**
 ```
 tail /var/log/syslog
 ```
 
-Probleme mit Apache
+**Probleme mit Apache**
 ```
 tail /var/log/apache2/error.log
 ```
