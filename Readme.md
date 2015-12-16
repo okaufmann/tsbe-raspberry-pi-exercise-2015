@@ -42,11 +42,17 @@ nano /etc/apache2/passwords/.htgroup
 nano /home/sites/vorname-nachname/index.html
 nano /home/sites/vorname-nachname/privat/index.html
 ```
-**4) Nun muss man die IP die der PI erhaltent hat in den folgenden Files anpassen:**
+**4) In folgenden Dateien XXX mit letztem Teil der IP vom Raspi ersetzen:**
 ```
-http://www.vorname-nachname.int aufrufen.
+/etc/bind/db.10.23.3
+/etc/bind/db.aba.int
+/etc/bind/named.conf.options
 ```
-**5) Dienste neustarten**
+**5) DNS Server `dns-nameservers` auf Raspi selbst anpassen**
+```
+/etc/network/interfaces
+```
+**5) Bind und Apache neustarten**
 ```
 service apache2 restart
 service bind9 restart
