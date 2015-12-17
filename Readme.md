@@ -32,7 +32,7 @@ service pi-finder restart
 ```
 raspy-config
 ```
-(8 Advanced -> A2 Hostname --> vorname-nachname.int)
+(8 Advanced -> A2 Hostname --> my-awesome-pi (oder was ihr sonst wollt. **einfach nur Buchstaben, Zahlen und - verwenden!**)
 
 ###IP anpassen und Webseiten Zugang erstellen
 **1) Einen neuen Zugang für den privaten Bereich der eingerichteten Webseite erstellen (Und sich die Daten merken!):**
