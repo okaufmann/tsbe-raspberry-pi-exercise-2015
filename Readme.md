@@ -26,6 +26,7 @@ Damit es keine Netzwerk konflikte gibt sind folgende Schritte notwendig:
 **1) Pi Finder name ändern**
 ```
 nano /usr/lib/node_modules/pi-finder/config.js
+service pi-finder restart
 ```
 **2) Pi hostname ändern:**
 ```
