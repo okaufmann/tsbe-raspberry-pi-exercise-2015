@@ -9,7 +9,7 @@
 
 ###Zugang
 
-IP gemäss [https://pi.strebl.ch](https://pi.strebl.ch) (Zuerst aber umbenennen)
+IP gemäss [https://pi.strebl.ch](https://pi.strebl.ch) ([Zuerst aber umbenennen](#pi-umbenennen))
 Username: pi
 Passwort: raspberry (auch für root)
 
