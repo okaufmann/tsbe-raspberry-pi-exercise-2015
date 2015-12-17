@@ -48,6 +48,11 @@ nano /etc/apache2/passwords/.htgroup
 nano /home/sites/aba.int/index.html
 nano /home/sites/aba.int/privat/index.html
 ```
+Und auch noch in der Folgenden Datei den Namen anpassen:
+```
+/etc/apache2/sites-available/aba.int.conf
+```
+
 **4) In folgenden Dateien XXX mit letztem Teil der IP vom Raspi ersetzen:**
 ```
 /etc/bind/db.10.23.3
